@@ -1,5 +1,7 @@
 # 52017248_galaxy-morphology-classification
-Applied deep learning for classification of images. Assignment 1.
+
+# Assignment 1.
+Task: Define the scope of the project & relevant resources
 
 # Galaxy Morphology Classification
 
