@@ -15,24 +15,22 @@ Bring your own method - the focus is on implementing and refining an architectur
 
 ## 3. Reference papers
 
-1. **Kim & Brunner, 2017 – *Star–galaxy classification using deep convolutional neural networks* (MNRAS, 464(4), 4463–4475)**
-   One of the earliest applications of CNNs to astronomical imaging. This work focused on distinguishing stars from galaxies in SDSS data, showing that even shallow convolutional architectures can outperform traditional SExtractor and Random Forest pipelines. It established CNNs as a reliable tool for astronomical image classification.
+1. **Kim, E. J., & Brunner, R. J. (2017).** *Star–galaxy classification using deep convolutional neural networks.* *Monthly Notices of the Royal Astronomical Society*, **464**(4), 4463–4475. [https://doi.org/10.1093/mnras/stw2672](https://doi.org/10.1093/mnras/stw2672)
 
-2. **Cheng et al., 2020 – *Galaxy Morphology Classification with Deep Learning and the Sloan Digital Sky Survey* (MNRAS, 491(1))**
-   Applied a deep CNN (based on ResNet) to large-scale SDSS imaging and showed that deep learning can reproduce expert classifications with high reliability. Provides a strong CNN baseline and demonstrates large-scale preprocessing and label curation methods.
+2. **Dieleman, S., Willett, K. W., & Dambre, J. (2015).** *Rotation-invariant convolutional neural networks for galaxy morphology prediction.* *Monthly Notices of the Royal Astronomical Society*, **450**(2), 1441–1459. [https://doi.org/10.1093/mnras/stv632](https://doi.org/10.1093/mnras/stv632)
 
-3. **Lin et al., 2023 – *Galaxy Morphological Classification with Efficient Vision Transformers***
-   Applied Vision Transformers (ViT) to large astronomical image sets, showing that attention mechanisms capture long-range structural dependencies more effectively than pure CNNs. Provides a foundation for exploring hybrid CNN–ViT architectures.
+3. **Cheng, T.-Y., Conselice, C. J., Aragón-Salamanca, A., & Bland-Hawthorn, J. (2020).** *Galaxy morphology classification with deep learning and the Sloan Digital Sky Survey.* *Monthly Notices of the Royal Astronomical Society*, **491**(1), 510–523. [https://doi.org/10.1093/mnras/stz2933](https://doi.org/10.1093/mnras/stz2933)
 
-4. **Cao et al., 2024 – *Galaxy morphology classification based on Convolutional Vision Transformer (CvT)* (Astronomy & Astrophysics, 683, A42)**
-   The finalized peer-reviewed publication presenting CvT-13 architecture for galaxy morphology classification. Integrates convolutional layers within a transformer backbone to combine local and global feature representations, achieving improved accuracy and efficiency compared to pure ViT or ResNet models.
+4. **Lin, Y., et al. (2023).** *Galaxy morphological classification with efficient Vision Transformers.* *Publications of the Astronomical Society of the Pacific*, **135**, 024501. [https://doi.org/10.1088/1538-3873/acb0a4](https://doi.org/10.1088/1538-3873/acb0a4)
 
-5. **Hayat et al., 2022 – *Self-Supervised Representation Learning for Astronomical Images***
-   Demonstrated that contrastive self-supervised pretraining on unlabeled sky surveys yields rich representations transferable to galaxy morphology tasks. Suggests a strategy for boosting performance when labeled data are limited.
+5. **Cao, X., et al. (2024).** *Galaxy morphology classification based on Convolutional Vision Transformer (CvT).* *Astronomy & Astrophysics*, **683**, A42. [https://doi.org/10.1051/0004-6361/202348544](https://doi.org/10.1051/0004-6361/202348544)
 
-6. **Galaxy10 DECaLS Dataset Documentation – astroNN Project (Li et al.)**
-   Supplies 17 000 DECam Legacy Survey images labeled by morphological type and standardized preprocessing scripts. This dataset offers high-quality input for supervised training and fair benchmarking across methods.
+6. **Hayat, M. A., et al. (2022).** *Self-supervised representation learning for astronomical images.* *Monthly Notices of the Royal Astronomical Society*, **511**(1), 1271–1283. [https://doi.org/10.1093/mnras/stac101](https://doi.org/10.1093/mnras/stac101)
 
+7. **Walmsley, M., et al. (2023).** *Zoobot: Adaptable deep learning models for galaxy morphology.* *Astronomy and Computing*, **45**, 100737. [https://doi.org/10.1016/j.ascom.2023.100737](https://doi.org/10.1016/j.ascom.2023.100737)
+
+8. **Li, E. (2019).** *Galaxy10 DECaLS dataset documentation.* *astroNN Project.* [https://github.com/henrysky/astroNN](https://github.com/henrysky/astroNN)
+   
 ## 4. Project summary
 
 ### 4.1 Project description.
