@@ -7,11 +7,11 @@ Applied deep learning for classification of images. Assignment 1.
 
 In this project I aim to classify galaxies based on their morphological type (spiral, elliptical, irregular) using deep learning methods. 
 
-### 2. Project type
+## 2. Project type
 
 Bring your own method - the focus is on implementing and refining an architecture that extends an existing model.
 
-### 2. Reference papers
+## 3. Reference papers
 
 1. **Kim & Brunner, 2017 – *Star–galaxy classification using deep convolutional neural networks* (MNRAS, 464(4), 4463–4475)**
    One of the earliest applications of CNNs to astronomical imaging. This work focused on distinguishing stars from galaxies in SDSS data, showing that even shallow convolutional architectures can outperform traditional SExtractor and Random Forest pipelines. It established CNNs as a reliable tool for astronomical image classification.
@@ -37,18 +37,18 @@ Bring your own method - the focus is on implementing and refining an architectur
 8. **Galaxy10 DECaLS Dataset Documentation – astroNN Project (Li et al.)**
    Supplies 17 000 DECam Legacy Survey images labeled by morphological type and standardized preprocessing scripts. This dataset offers high-quality input for supervised training and fair benchmarking across methods.
 
-### 4. Project summary
+## 4. Project summary
 
-#### 4.1 Project description.
+### 4.1 Project description.
 
 Galaxies come in many fascinating shapes, astronomers have classified galaxies by their morphology for over a century, but doing this manually for millions of images from modern telescopes is no longer feasible. The goal of this project is to build a deep learning model that can automatically classify galaxies by their visual type and perform recognition of structural patterns that define different galaxy morphologies.
 
-#### 4.2
+### 4.2
 
 **Dataset:** [Galaxy10 DECals Dataset](https://paperswithcode.com/dataset/galaxy10-decals) – 17,000 labeled images of galaxies from the DECam Legacy Survey, curated for morphology classification.
 **Classes:** Elliptical, Spiral, Edge-on Spiral, Merging, and others.
 
-#### 4.3 Work breakdown structure
+### 4.3 Work breakdown structure
 
 | Task                                          | Estimated Hours |
 | --------------------------------------------- | --------------- |
@@ -61,7 +61,7 @@ Galaxies come in many fascinating shapes, astronomers have classified galaxies b
 | Presentation preparation                      | 8               |
 | **Total**                                     | **85**          |
 
-### 5. Contact
+## 5. Contact
 
 For any questions regarding this project:
 **Student:** Iana Bembeeva
