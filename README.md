@@ -55,7 +55,53 @@ Galaxies come in many fascinating shapes, astronomers have classified galaxies b
 | Presentation preparation                      | 8               |
 | **Total**                                     | **85**          |
 
-## 5. Contact
+
+## 5. Summary & Results
+
+### 5.1 Project Implementation
+
+In this project, I developed an automated galaxy morphology classification system.  
+Moving beyond a simple baseline, I implemented a **Weighted Ensemble** approach that combines multiple deep learning architectures to capture both fine structural details and global galaxy features.
+
+#### Technical Enhancements
+
+- **Multi-Architecture Ensemble**  
+  Combined **ResNet50** (optimized for 128×128 inputs) and **EfficientNetB5** (optimized for 224×224 inputs).
+
+- **Precision Fine-Tuning**  
+  Applied a *Simulated Differential Learning Rate (DLR)* strategy with an ultra-low learning rate  
+  (`3 × 10⁻⁶`) to refine final weights while preserving pre-trained representations.
+
+- **Class Imbalance Handling**  
+  Used automated **Balanced Class Weights** to improve recall for underrepresented galaxy classes  
+  (e.g., irregular and merging galaxies).
+
+- **Data Augmentation**  
+  Implemented full **360° rotation**, zoom, and flip invariance to reflect the physical properties of astronomical objects.
+
+### 5.2 Performance Results
+
+The final ensemble model achieved clear improvements over individual baseline models.
+
+| Model Strategy | Resolution | Weighted F1-Score |
+|---------------|-----------|------------------|
+| Baseline CNN | 128×128 | ~0.55 |
+| ResNet50 (Fine-tuned) | 128×128 | **0.7641** |
+| EfficientNetB5 (DLR) | 224×224 | **0.7990** |
+| **Final Ensemble (ResNet + EffNet)** | Multi-Resolution | **0.8121** |
+
+### 5.3 Model Weights & Artifacts
+
+To follow best practices for repository management:
+
+- **Model Weights**  
+  Trained `.keras` model files are stored in the **Releases** section to avoid bloating the Git history.
+
+- **Notebook**  
+  The complete experimental pipeline, including training logs and evaluation metrics, is available in  
+  `Galaxy_Morphology_Exploration.ipynb`.
+
+## 6. Contact
 
 For any questions regarding this project:
 **Student:** Iana Bembeeva
