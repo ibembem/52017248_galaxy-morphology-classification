@@ -1,0 +1,24 @@
+# --- models and heavy weights(Deep Learning) ---
+*.keras
+*.h5
+*.pth
+*.tflite
+models/
+checkpoint/
+
+# ---Dataset---
+*.h5
+*.npy
+*.csv
+data/
+datasets/
+
+# --- temp files Python, Colab ---
+__pycache__/
+.ipynb_checkpoints/
+.virtual_envs/
+.env
+
+# --- system files ---
+.DS_Store
+Thumbs.db
